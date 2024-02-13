@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./aligned-photo.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">PHOTOBOOTH NE <3</h1>
+        </div>
+
+        <div class="photo_container">
+            <!-- Left-aligned photo -->
+            <div class="gif_container left-align">
+                <video width="360" height="280" autoplay muted>
+                    <source src="luc_Melbourne9_20240203221905_result.mp4" type="video/mp4">
+                  </video>
+            </div>
+
+            <!-- Right-aligned photo -->
+            <div class="gif_container right-align">
+                <img src="IMG_1930.JPG" alt="Cute animated illustration" style="width:400px;height:400px;">
+            </div>
+        </div>
+
+        <div class="buttons">
+            <link rel="stylesheet" href="./styles.css">
+            <button class="btn" id="yesButton" onclick="nextPage()">Yeu anh thi bam' tiep' =></button>
+            <script>
+                function nextPage() {
+                    window.location.href = "onlinedate.html";
+                }
+            </script>
+        </div>
+    </div>
+</body>
+</html>

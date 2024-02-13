@@ -1,0 +1,46 @@
+/* aligned-photo.css */
+
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header_text {
+    color: #333;
+}
+
+.photo_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.gif_container {
+    width: 1%; /* Adjust the width as needed */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.left-align {
+    float: left;
+    margin-left: 20px;
+}
+
+.right-align {
+    float: right;
+    margin-right: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
